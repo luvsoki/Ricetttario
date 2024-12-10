@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Stile generale */
+body {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Intestazione */
+header {
+    background-color: #de8731;
+    color: #efefef;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-family: "Poppins", serif;
+    font-weight: 1000;
+    font-size: 16px; 
+    font-style: normal;
+}
+    
+
+header h1 {
+        font-family: "Poppins", serif;
+        font-weight: 1000;
+        font-size: 40px; 
+        font-style: normal;
+        color: #ffffff;
+}
+
+nav {
+    background-color: #333;
+    margin: 5;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sezione delle ricette */
+.category {
+    padding: 20px;
+}
+
+.category h2 {
+    color: #d9534f;
+}
+
+.recipe {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h3 {
+    margin-top: 0;
+}
+
+.recipe ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+img { 
+    width: 700px; 
+    height: 450px; }
+    
+nav ul li button { 
+        background-color: #ed953d; 
+        color: #fff;  
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: none; padding: 10px 15px; 
+        font-size: 16px; 
+        border-radius: 15px; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease;
+     }
+nav ul li button:hover { 
+    background-color: #e9ab65; 
+    transition: background-color 0.3s ease;
+}
+.image-gallery {
+    overflow-x: auto; /* Aggiunge lo scorrimento orizzontale */
+    white-space: nowrap; /* Impedisce il wrapping delle immagini */
+    padding: 10px; /* Aggiunge un po' di spazio intorno alla galleria */
+    background-color: #f0f0f0; /* Sfondo per evidenziare la galleria */
+}
+
+.image-container {
+    display: flex; /* Dispone le immagini in linea orizzontale */
+    gap: 10px; /* Spaziatura tra le immagini */
+}
+
+.image-container img {
+    height: 200px; /* Altezza uniforme per le immagini */
+    width: auto; /* Mantiene le proporzioni */
+    border-radius: 8px; /* Bordo arrotondato per le immagini */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opzionale: ombra */
+    cursor: pointer; /* Mostra il cursore a forma di mano */
+    transition: transform 0.3s ease; /* Animazione per hover */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Ingrandisce leggermente l'immagine al passaggio del mouse */
+}

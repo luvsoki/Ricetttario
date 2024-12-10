@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricettario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ricettario</h1>
+        <p>Scopri ricette deliziose da preparare a casa!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button onclick="window.location.href='#antipasti'">Antipasti</button></li>
+            <li><button onclick="window.location.href='#primi'">Primi piatti</button></li>
+            <li><button onclick="window.location.href='#secondi'">Secondi piatti</button></li>
+            <li><button onclick="window.location.href='#dolci'">Dolci</button></li>
+        </ul>
+    </nav>
+
+    <section id="antipasti" class="category">
+        <h2>Antipasti</h2>
+        <article class="recipe">
+            <h3>Bruschetta al Pomodoro</h3>
+            <img src="bruschetta.jpg" alt="Immagine della bruschetta">
+            <section class="image-gallery">
+                <div class="image-container">
+                    <img src="toast.jpg" alt="Immagine 1">
+                    <img src="pomodoro.jpg" alt="Immagine 2">
+                </div>
+            </section>
+            <p>Un antipasto classico italiano fatto con pane tostato, pomodori freschi, e basilico.</p>
+            <h4>Ingredienti</h4>
+            <ul>
+                <li>Pane</li>
+                <li>Pomodori</li>
+                <li>Basilico</li>
+                <li>Olio d'oliva</li>
+                <li>Sale e pepe</li>
+            </ul>
+            <h4>Preparazione</h4>
+            <p>1. Tosta il pane. 2. Taglia i pomodori e mescolali con basilico, olio, sale e pepe. 3. Metti il tutto sul pane tostato.</p>
+        </article>
+    </section>
+
+    <section id="primi" class="category">
+        <h2>Primi Piatti</h2>
+        <article class="recipe">
+            <h3>Spaghetti alla Carbonara</h3>
+            <img src="carbonara.jpg" alt="Immagine della carbonara">
+            <section class="image-gallery">
+                <div class="image-container">
+                    <img src="guanciale.jpg" alt="Immagine 1">
+                    <img src="pan.jpg" alt="Immagine 2">
+                </div>
+            </section>
+            <p>Un piatto classico della cucina romana con uova, guanciale e pecorino.</p>
+            <h4>Ingredienti</h4>
+            <ul>
+                <li>Spaghetti</li>
+                <li>Uova</li>
+                <li>Guanciale</li>
+                <li>Pecorino Romano</li>
+                <li>Pepe nero</li>
+            </ul>
+            <h4>Preparazione</h4>
+            <p>1. Cuoci gli spaghetti. 2. Cuoci il guanciale. 3. Mescola uova e pecorino, unisci tutto e servi caldo.</p>
+        </article>
+        <article class="recipe">
+            <h3>Katsu curry</h3>
+            <img src="kastucurry.jpg" alt="Immagine del kastu curry">
+            <section class="image-gallery">
+                <div class="image-container">
+                    <img src="soffritto.jpg" alt="Immagine 1">
+                    <img src="cube.jpg" alt="Immagine 2">
+                    <img src="curry.jpg" alt="Immagine 3">
+                    <img src="cotoletta.jpg" alt="Immagine 4">
+                </div>
+            </section>
+            <p>Il Katsu curry è un piatto giapponese composto da riso gohan, crema al curry con verdure e un tonkatsu, una cotoletta di maiale fritta nel panko, pan grattato giapponese</p>
+            <h4>Ingredienti</h4>
+            <ul>
+                <li>Riso gohan</li>
+                <li>cipolla</li>
+                <li>carote</li>
+                <li>patate</li>
+                <li>blocchi di curry</li>
+                <li>cotoletta di maiale</li>
+            </ul>
+            <h4>Preparazione</h4>
+            <p>1.Cuoci il riso in un bollitore, prepara il soffritto con carote, cipolla e patate e fai rosolare. 2.Aggiungi acqua e i blocchi di curry 3.Prepara la cotoletta di maiale a piacere. 4.Componi il piatto e servi a tavola </p>
+        </article>
+    </section>
+
+    <!-- Puoi aggiungere altre sezioni per secondi piatti e dolci -->
+
+    <section id="secondi" class="category">
+        <h2>Secondi piatti</h2>
+        <article class="recipe">
+            <h3>Cotoletta alla viennese</h3>
+            <img src="vienne.jpg" alt="Cotoletta alla viennese">
+            <section class="image-gallery">
+                <div class="image-container">
+                    <img src="vitello.jpg" alt="Immagine 1">
+                    <img src="vituovo.jpg" alt="Immagine 2">
+                    <img src="pang.jpg" alt="Immagine 3">
+                    <img src="fritt.jpg" alt="Immagine 4">
+                </div>
+            </section>
+            <p>La cotoletta alla viennese è una fettina di vitello impanata e fritta, tipica della cucina austriaca.</p>
+            <h4>Ingredienti</h4>
+            <ul>
+                <li>Vitello</li>
+                <li>farina Q.B</li>
+                <li>un uovo</li>
+                <li>pangrattato Q.B</li>
+                <li>condimenti a piacere</li>
+            </ul>
+            <h4>Preparazione</h4>
+            <p>1.Batti il vitello sottile. 2.Passalo in farina, uovo e pangrattato. 3.Friggi nel burro caldo. 4.Servi con limone e contorni.</p>
+        </article>
+    </section>
+
+    <section id="dolci" class="category">
+        <h2>Dolci</h2>
+        <article class="recipe">
+            <h3>Fluffy pancake</h3>
+            <img src="pancake.jpg" alt="Descrizione dell'immagine 1">
+            <section class="image-gallery">
+                <div class="image-container">
+                    <img src="impasto.jpg" alt="Immagine 1">
+                    <img src="albume.jpg" alt="Immagine 2">
+                    <img src="cuoci.jpg" alt="Immagine 3">
+                </div>
+            </section>
+            <p>I fluffy pancake sono frittelle soffici e spesse, tipiche della colazione americana, note per la loro consistenza leggera e spugnosa.</p>
+            <h4>Ingredienti</h4>
+            <ul>
+                <li>Farina</li>
+                <li>Zucchero</li>
+                <li>Uova</li>
+                <li>Lievito per dolci</li>
+                <li>Latte</li>
+                <li>Burro</li>
+            </ul>
+            <h4>Preparazione</h4>
+            <p>1.Mescola farina, zucchero, lievito e sale. 2.Aggiungi latte, turlo d'uova e burro fuso. 3.Batti l'albume e aggiungilo a parte 4.Cuoci l'impasto a cucchiaiate in padella. 4.Servi con sciroppo e frutta.</p>
+        </article>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Ricettario. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
